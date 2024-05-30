@@ -1,0 +1,31 @@
+{
+  "name": "cypress-cucumber",
+  "version": "2.0.0",
+  "description": "cucumber framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "hani",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.9.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "cypress-xpath": "^2.0.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "stepDefinitions": "cypress/e2e"
+  },
+  "dependencies": {
+    "cypress-multi-reporters": "^1.6.4",
+    "mocha": "^10.4.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0"
+  }
+}
