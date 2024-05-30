@@ -1,4 +1,4 @@
-# TMDB 'Mark as Favorite' Testing with Cypress
+<img width="1322" alt="image" src="https://github.com/hanifahputri12/tmdb-cypress/assets/62348206/d51a6a0a-e271-42b3-9759-62eac3976f6a"># TMDB 'Mark as Favorite' Testing with Cypress
 
 ## Tools Version
 - Cypress : v13.9.0
@@ -69,4 +69,8 @@
 1. Scenario remove favorite berstatus Failed karena ketika melakukan klik pada remove tidak terjadi action apapun sehingga fungsionalitas dasar dari button tersebut tidak berjalan
 2. Beberapa element dibuat tidak visible sehingga element susah ditemukan sehingga hal ini akan menyulitkan dalam melakukan automation testing sehingga beberapa element seharusnya dibuat agar bisa mudah terdetect oleh tim FE
 3. Beberapa deskripsi pada film dalam bahasa Indonesia masih belum ada padahal dalam bahasa Inggris sudah ada, seharusnya jika mengubah bahasa deskripsi yang sudah ada di bahasa sebelumnya bisa langsung otomatis berubah
+
+## Video report
+1. File favorite-english.feature : https://drive.google.com/file/d/1fkHp5gJXrOESCKso42mxYwkozeTdUiIp/view?usp=sharing
+1. File favorite-indonesia.feature : https://drive.google.com/file/d/1u8rLtcjgVXQygrGiTV5vk7KeqaR6cVh7/view?usp=sharing
 
