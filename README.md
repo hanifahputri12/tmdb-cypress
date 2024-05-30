@@ -1,5 +1,3 @@
-<img width="1322" alt="image" src="https://github.com/hanifahputri12/tmdb-cypress/assets/62348206/d51a6a0a-e271-42b3-9759-62eac3976f6a"># TMDB 'Mark as Favorite' Testing with Cypress
-
 ## Tools Version
 - Cypress : v13.9.0
 - node.js : v20.12.0
